@@ -13,7 +13,10 @@
   "version": "0.13.0",
   "installVersion": 9,
   "author": "Roger Wang <wenrui@gmail.com> (based on node-gyp)",
-  "repository": { "type": "git", "url": "https://github.com/rogerwang/nw-gyp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogerwang/nw-gyp.git"
+  },
   "preferGlobal": true,
   "bin": "./bin/nw-gyp.js",
   "main": "./lib/nw-gyp.js",
@@ -30,7 +33,8 @@
     "rimraf": "2",
     "semver": "~2.2.1",
     "tar": "0",
-    "which": "1"
+    "which": "1",
+    "hawk": "7.0.0"
   },
   "engines": {
     "node": ">= 0.8.0"
